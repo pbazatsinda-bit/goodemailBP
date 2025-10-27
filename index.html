@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign in - Google Accounts</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/512px-Google_2015_logo.svg.png" width="120" alt="Google" />
+    </div>
+
+    <div class="card">
+      <h2>Sign in</h2>
+      <p>to continue to Gmail</p>
+      
+      <form id="emailForm">
+        <input type="email" id="email" placeholder="Email or phone" required autofocus>
+        <div id="emailError" class="error hidden">Enter a valid email or phone number</div>
+        
+        <button type="submit">Next</button>
+      </form>
+      
+      <div class="links">
+        <a href="#">Forgot email?</a>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <a href="#">Create account</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
